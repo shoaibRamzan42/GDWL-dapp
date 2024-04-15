@@ -3,7 +3,7 @@ import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
 import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import logo from "../src/assets/logo.png";
-import CountdownTimer from "./timer";
+import CountdownTimer from "../src/Timer";
 
 const Banner = () => {
   const [selectedOption, setSelectedOption] = useState("141.087123");
